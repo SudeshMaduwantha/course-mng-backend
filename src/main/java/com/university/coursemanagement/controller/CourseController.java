@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/courses")
-@CrossOrigin(origins ="*") // Allow React app to access
+@CrossOrigin(origins ={"http://localhost:3000", "https://university-course-management-system.vercel.app"}) // Allow React app to access
 public class CourseController {
     
     @Autowired

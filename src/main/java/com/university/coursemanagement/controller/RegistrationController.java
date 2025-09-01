@@ -1,5 +1,4 @@
 package com.university.coursemanagement.controller;
-
 import com.university.coursemanagement.entity.Registration;
 import com.university.coursemanagement.entity.Student;
 import com.university.coursemanagement.entity.Course;

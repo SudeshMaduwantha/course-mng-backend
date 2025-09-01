@@ -1,5 +1,4 @@
 package com.university.coursemanagement.controller;
-
 import com.university.coursemanagement.entity.Course;
 import com.university.coursemanagement.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/courses")
-@CrossOrigin(origins = "http://localhost:3000") // Allow React app to access
+@CrossOrigin(origins ="*") // Allow React app to access
 public class CourseController {
     
     @Autowired

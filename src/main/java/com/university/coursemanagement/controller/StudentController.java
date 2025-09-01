@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins ={"http://localhost:3000", "https://university-course-management-system.vercel.app"})
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class StudentController {
     
     @Autowired

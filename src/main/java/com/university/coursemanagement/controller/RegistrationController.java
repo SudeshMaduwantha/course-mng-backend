@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api/registrations")
-@CrossOrigin(origins ={"http://localhost:3000", "https://university-course-management-system.vercel.app"})
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class RegistrationController {
     
     @Autowired

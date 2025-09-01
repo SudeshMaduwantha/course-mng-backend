@@ -1,4 +1,4 @@
-package com.university.coursemanagement.config;
+package main.java.com.university.coursemanagement.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
